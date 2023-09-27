@@ -1,0 +1,16 @@
+.NavBar__CartWidget {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    margin-left: 7px;
+}
+
+.NavBar__CartWidget--p {
+    font-size: 15px;
+    color: black;
+    background-color: lightcoral;
+    border-radius: 100%;
+    padding: 1px 4px;
+    margin-left: 3px;
+}

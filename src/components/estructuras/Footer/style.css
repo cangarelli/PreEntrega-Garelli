@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    .iconConteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon{
+            
+            .img{
+                width: 5%;
+            }
+       }
+    }
+}

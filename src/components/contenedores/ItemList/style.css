@@ -1,0 +1,24 @@
+.itemList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Gondola{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding-block: 2rem;    
+        
+    }
+
+
+
+}
+@media (min-width: 1200px) {
+    .itemList{
+        .Gondola{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
+}
+}

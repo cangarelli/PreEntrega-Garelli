@@ -1,0 +1,44 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url("../../../assets/jpg/fondo-navbar.jpg");
+
+    .conteiner{
+        max-width: 1200px;
+    }
+}
+.NavBar__ItemListConteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar__ItemListConteine--span {
+    color: black;    
+    font-size: 20px;
+
+    transform-origin: center center;
+    translate: -50% 0%;
+    position: absolute;
+    left: 50%;
+    
+    padding: 7px;
+    border-radius: 10px;
+    
+    background-image: url("../../assets/jpg/retazo-hoja-menu.jpg");
+    background-attachment: local;
+    background-size: 100% 100%;
+    
+    box-shadow: 6px 6px 8px violet;
+}
+
+.NavBar__ItemListConteine--button {
+    margin: 0px 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-image: url("../../assets/jpg/retazo-hoja-menu.jpg");
+    background-attachment: local;
+    background-size: 100% 100%;
+}
